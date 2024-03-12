@@ -24,7 +24,29 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Project configuration
+
+-
+
+In your NextJS Project you have this file , named .eslintrc.json, In this file
+
+You have following code
+
+{
+"extends": "next/core-web-vitals"
+}
+Replace it with
+
+{
+"extends": ["next/babel","next/core-web-vitals"]
+}
+
+##
+
+--Add React Developer Tools extension to chrome
+--\_document.js is same as html file
+--set up \_document.js file with bootstrap link and globals.cc
+-- Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
